@@ -45,6 +45,8 @@ public class Plugin implements StartStopListener
         playingScene.put("2", State.OFF);
         playingScene.put("3", new State(111, 0.2097, 0.6733));
         playingScene.put("4", State.OFF);
+        playingScene.put("5", State.OFF);
+        playingScene.put("6", new State(40, 0.2097, 0.6733));
     }
 
     @Override
